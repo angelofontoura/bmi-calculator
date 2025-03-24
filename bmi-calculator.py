@@ -1,6 +1,6 @@
 # bmi_calculator.py - Version with user interaction
 def calculate_bmi(weight, height):
-    return weight / height #Missing squared height (bug introduced)
+    return weight / (height ** 2)  # Correct calculation
 
 def classify_bmi(bmi):
     if bmi < 18.5: return "Underweight"
