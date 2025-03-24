@@ -1,4 +1,4 @@
-# bmi_calculator.py - Initial version
+# bmi_calculator.py - Version with user interaction
 def calculate_bmi(weight, height):
     return weight / (height ** 2)
 
@@ -10,11 +10,19 @@ def classify_bmi(bmi):
     if bmi < 40: return "Obesity class II"
     return "Obesity class III"
 
-# Example 
-weight = 70  # kg
-height = 1.75  # meters
+def main():
+    print("\nBMI Calculator\n")
+    try:
+        weight = float(input("Enter your weight in kg: "))
+        height = float(input("Enter your height in meters: "))
+        
+        bmi = calculate_bmi(weight, height)
+        classification = classify_bmi(bmi)
+        
+        print(f"\nYour BMI is: {bmi:.2f}")
+        print(f"Classification: {classification}\n")
+    except ValueError:
+        print("\nError: Please enter valid numbers\n")
 
-bmi = calculate_bmi(weight, height)
-classification = classify_bmi(bmi)
-
-print(f"BMI: {bmi:.2f} - {classification}")
+if __name__ == "__main__":
+    main()
