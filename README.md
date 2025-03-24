@@ -11,3 +11,18 @@ This project is a simple Body Mass Index (BMI) calculator developed in Python fo
 2. Enter your weight in kg
 3. Enter your height in meters
 4. View the result and classification
+
+## How to Contribute
+1. Fork this repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit changes: `git commit -m 'Add feature'`
+4. Push: `git push origin feature/your-feature`
+5. Open a Pull Request**
+
+6. ## Version History
+| Version | Changes                          |
+|---------|----------------------------------|
+| v0.1.0  | Basic BMI calculation           |
+| v0.2.0  | Added user interaction          |
+| v0.2.1  | Fixed calculation formula       |
+| v1.0.0  | Stable release with validation  |
