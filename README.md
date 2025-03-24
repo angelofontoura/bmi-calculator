@@ -33,11 +33,3 @@ This project is a simple Body Mass Index (BMI) calculator developed in Python fo
 git clone https://github.com/angelofontoura/bmi-calculator.git
 cd bmi-calculator
 python -m pip install -e .
-
-## Version History
-| Version | Changes                          |
-|---------|----------------------------------|
-| v0.1.0  | Basic BMI calculation           |
-| v0.2.0  | Added user interaction          |
-| v0.2.1  | Fixed calculation formula       |
-| v1.0.0  | Stable release with validation  |
