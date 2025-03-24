@@ -1,4 +1,4 @@
-#BMI Calculator
+### BMI Calculator
 
 This project is a simple Body Mass Index (BMI) calculator developed in Python for a college assignment.
 
