@@ -1,0 +1,3 @@
+# Python package requirements
+# This project uses pure Python (no external dependencies)
+# Add future packages below this line
