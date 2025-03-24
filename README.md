@@ -19,7 +19,13 @@ This project is a simple Body Mass Index (BMI) calculator developed in Python fo
 4. Push: `git push origin feature/your-feature`
 5. Open a Pull Request**
 
-6. ## Version History
+## Development Setup
+```bash
+git clone https://github.com/angelofontoura/bmi-calculator.git
+cd bmi-calculator
+python -m pip install -e .
+
+7. ## Version History
 | Version | Changes                          |
 |---------|----------------------------------|
 | v0.1.0  | Basic BMI calculation           |
