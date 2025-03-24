@@ -23,8 +23,8 @@ This project is a simple Body Mass Index (BMI) calculator developed in Python fo
 | Version | Changes                          |
 |---------|----------------------------------|
 | v0.1.0  | Basic BMI calculation           |
-| v0.2.0  | Added user interaction          |
-| v0.2.1  | Fixed calculation formula       |
+| v0.2.0  | Added user interaction & Project bug |
+| v0.2.1  | Fixed project bug |
 | v1.0.0  | Stable release with validation  |
 
 
